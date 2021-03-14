@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="23.064">
+<testcase classname="Etsy Search With Scenario Outline" name="Etsy Search Validation" time="15.719">
+<system-out><![CDATA[Given the user navigates to "https://www.etsy.com"..........................passed
+When the user search with "Hat".............................................passed
+Then the user should see the title "Hat | Etsy".............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Etsy Search With Scenario Outline" name="Etsy Search Validation 2" time="3.276">
+<system-out><![CDATA[Given the user navigates to "https://www.etsy.com"..........................passed
+When the user search with "Key".............................................passed
+Then the user should see the title "Key | Etsy".............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Etsy Search With Scenario Outline" name="Etsy Search Validation 3" time="3.77">
+<system-out><![CDATA[Given the user navigates to "https://www.etsy.com"..........................passed
+When the user search with "Pin".............................................passed
+Then the user should see the title "Pin | Etsy".............................passed
+]]></system-out>
+</testcase>
+</testsuite>

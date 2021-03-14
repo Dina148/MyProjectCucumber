@@ -1,0 +1,601 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Navigate",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12594000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "the user navigates to \"https://www.etsy.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.etsy.com\"",
+                  "offset": 22
+                }
+              ],
+              "location": "steps.com.etsy.EtsySearchSteps.the_user_navigates_to(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-14T15:42:43.790Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hook.Hooks.before()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.com.etsy.EtsySearchSteps.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hook.Hooks.before()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Etsy Search Validation",
+        "description": "",
+        "id": "etsy-search-with-scenario-outline;etsy-search-validation;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hook.Hooks.after()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.com.etsy.EtsySearchSteps.afterScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hook.Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3009000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "the user search with \"Hat\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hat\"",
+                  "offset": 21
+                }
+              ],
+              "location": "steps.com.etsy.EtsySearchSteps.the_user_search_with(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "the user should see the title \"Hat | Etsy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hat | Etsy\"",
+                  "offset": 30
+                }
+              ],
+              "location": "steps.com.etsy.EtsySearchSteps.the_user_should_see_the_title(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@outline"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Navigate",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1325000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "the user navigates to \"https://www.etsy.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.etsy.com\"",
+                  "offset": 22
+                }
+              ],
+              "location": "steps.com.etsy.EtsySearchSteps.the_user_navigates_to(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-14T15:42:59.530Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hook.Hooks.before()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.com.etsy.EtsySearchSteps.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hook.Hooks.before()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Etsy Search Validation",
+        "description": "",
+        "id": "etsy-search-with-scenario-outline;etsy-search-validation;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hook.Hooks.after()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.com.etsy.EtsySearchSteps.afterScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hook.Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1891000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "the user search with \"Key\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Key\"",
+                  "offset": 21
+                }
+              ],
+              "location": "steps.com.etsy.EtsySearchSteps.the_user_search_with(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "the user should see the title \"Key | Etsy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Key | Etsy\"",
+                  "offset": 30
+                }
+              ],
+              "location": "steps.com.etsy.EtsySearchSteps.the_user_should_see_the_title(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@outline"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Navigate",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1407000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "the user navigates to \"https://www.etsy.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.etsy.com\"",
+                  "offset": 22
+                }
+              ],
+              "location": "steps.com.etsy.EtsySearchSteps.the_user_navigates_to(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-14T15:43:02.818Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hook.Hooks.before()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.com.etsy.EtsySearchSteps.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hook.Hooks.before()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Etsy Search Validation",
+        "description": "",
+        "id": "etsy-search-with-scenario-outline;etsy-search-validation;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hook.Hooks.after()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.com.etsy.EtsySearchSteps.afterScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hook.Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2337000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "the user search with \"Pin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pin\"",
+                  "offset": 21
+                }
+              ],
+              "location": "steps.com.etsy.EtsySearchSteps.the_user_search_with(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "the user should see the title \"Pin | Etsy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pin | Etsy\"",
+                  "offset": 30
+                }
+              ],
+              "location": "steps.com.etsy.EtsySearchSteps.the_user_should_see_the_title(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@outline"
+          }
+        ]
+      }
+    ],
+    "name": "Etsy Search With Scenario Outline",
+    "description": "",
+    "id": "etsy-search-with-scenario-outline",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com.etsy/EtsySearchOutline.feature",
+    "tags": [
+      {
+        "name": "@outline",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
