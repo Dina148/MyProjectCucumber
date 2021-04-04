@@ -27,6 +27,8 @@ public class JDBCPractice {
 
         resultSet.last();
         System.out.println(resultSet.getString("last_name"));
+
+
         resultSet.first();
         System.out.println(resultSet.getString("last_name"));
         System.out.println(resultSet.getRow());

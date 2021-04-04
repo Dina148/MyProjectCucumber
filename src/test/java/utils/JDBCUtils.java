@@ -51,4 +51,24 @@ public static void establishConnection(){
     }
             return employees;
     }
-   }
+    public static int getRowNum() throws SQLException{
+    resultSet.last();
+    return resultSet.getRow();
+    }
+
+    public  static void closeConnection() throws SQLException {
+        if (connection != null) {
+            connection.close();
+        }
+        if (statement != null) {
+            statement.close();
+
+        }
+        if (resultSet != null) {
+            resultSet.close();
+
+        }
+    }
+
+    
+}
