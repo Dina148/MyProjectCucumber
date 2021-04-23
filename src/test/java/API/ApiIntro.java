@@ -2,6 +2,7 @@ package API;
 
 
 import org.apache.http.HttpResponse;
+import org.apache.http.HttpStatus;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.utils.URIBuilder;
@@ -70,20 +71,36 @@ public class ApiIntro {
         uriBuilder.setScheme("https");
         uriBuilder.setHost("petstore.swagger.io");
         uriBuilder.setPath("v2/pet/789");
-
         HttpGet get=new HttpGet(uriBuilder.build());
-
         HttpResponse response=client.execute(get);
         System.out.println("");
         Assert.assertFalse(response.getStatusLine().getStatusCode() == 404);
         Assert.assertEquals(200,response.getStatusLine().getStatusCode());
 
     }
+    @Test
+    public void  getTest3() throws IOException, URISyntaxException {
+       HttpClient client=HttpClientBuilder.create().build();
 
+       URIBuilder builder=new URIBuilder();
+       builder.setScheme("https").setHost("corona.lmao.ninja").setPath("v2/states/Texas");
+       HttpGet get=new HttpGet(builder.build());
+       HttpResponse response=client.execute(get);
+       System.out.println("Get request has a response of "+response.getStatusLine().getStatusCode());
+       Assert.assertEquals(HttpStatus.SC_OK, response.getStatusLine().getStatusCode());
+    }
+    @Test
+    public void petTest1() throws URISyntaxException, IOException {
 
+        HttpClient client=HttpClientBuilder.create().build();
 
+        URIBuilder builder=new URIBuilder();
+        builder.setScheme("https").setHost("petstore.swagger.io").setPath("v2/pet/789");
+        HttpGet get=new HttpGet(builder.build());
+        HttpResponse response=client.execute(get);
+        System.out.println(response.getEntity().getContent());
 
-
+    }
 
 
 }
